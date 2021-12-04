@@ -23,10 +23,31 @@ int main()
 ```
 # Months of the Year
 ```
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string months[12] = { "Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
+    for (int i = 0; i < 12; i++)
+    {
+        cout << months[i] << endl;
+    }
+}
 ```
 # Time Travel
 ```
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string months[12] = { "Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec" };
+    for (int i = 0; i < 12; i++) 
+    { cout << months[i] << endl; }
+}
 ```
 # Marks
 ```
+In progress...
 ```
